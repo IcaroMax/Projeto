@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/imagens/imagem_de_fundo.jpg"); /* Substitua "imagem_de_fundo.jpg" pelo nome da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Define a cor de fundo da caixa de conteúdo */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.button {
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Define a cor de fundo do botão ao passar o mouse por cima */
+}
